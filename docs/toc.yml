@@ -1,0 +1,19 @@
+- name: Introduction
+  href: introduction.md
+- name: Getting Started
+  href: getting-started.md
+
+- name: University structure
+  expanded: true
+  items:
+    - name: Groups
+      href: uni-structure/groups.md
+
+    - name: Teachers
+      href: uni-structure/teachers.md
+
+    - name: Auditories
+      href: uni-structure/auditories.md
+
+- name: Schedule
+  href: schedule.md
