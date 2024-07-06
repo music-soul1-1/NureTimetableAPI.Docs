@@ -1,10 +1,10 @@
-# Auditories
+# Auditories, v1
 
 The `Auditories` controller provides the following endpoints:
 
-* `/Auditories/All`
-* `/Auditories/{id}`
-* `/Buildings`
+* `/api/v1/Auditories/All`
+* `/api/v1/Auditories/{id}`
+* `/api/v1/Buildings`
 
 ## `/Auditories/All`
 Gets all auditories. Returns a list of `Auditory` objects.
@@ -35,14 +35,14 @@ Auditory object:
 
 Call example:
 
-- **GET** [https://nure-time.runasp.net/api/Auditories/All](https://nure-time.runasp.net/api/Auditories/All)
+- **GET** [https://nure-time.runasp.net/api/v1/Auditories/All](https://nure-time.runasp.net/api/v1/Auditories/All)
 
 ## `/Auditories/{id}`
 Gets an auditory by its ID. Returns an `Auditory` object.
 
 Call example:
 
-- **GET** [https://nure-time.runasp.net/api/Auditories/-185](https://nure-time.runasp.net/api/Auditories/-185)
+- **GET** [https://nure-time.runasp.net/api/v1/Auditories/-185](https://nure-time.runasp.net/api/v1/Auditories/-185)
 
 ## `/Buildings`
 Gets all buildings. Returns a list of `BuildingDto` objects.
@@ -72,4 +72,4 @@ BuildingDto object:
 
 Call example:
 
-- **GET** [https://nure-time.runasp.net/api/Auditories/Buildings](https://nure-time.runasp.net/api/Auditories/Buildings)
+- **GET** [https://nure-time.runasp.net/api/v1/Auditories/Buildings](https://nure-time.runasp.net/api/v1/Auditories/Buildings)

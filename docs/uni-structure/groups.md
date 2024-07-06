@@ -1,4 +1,4 @@
-# Groups
+# Groups, v1
 
 The `Groups` controller provides the following endpoints:
 * `/Groups/All`
@@ -28,7 +28,7 @@ Group object:
 
 Call example:
 
-- **GET** [https://nure-time.runasp.net/api/Groups/All](https://nure-time.runasp.net/api/Groups/All)
+- **GET** [https://nure-time.runasp.net/api/v1/Groups/All](https://nure-time.runasp.net/api/v1/Groups/All)
 
 
 ## `/Groups/{id}`
@@ -36,7 +36,7 @@ Gets a group by its ID. Returns a `Group` object.
 
 Call example:
 
-- **GET** [https://nure-time.runasp.net/api/Groups/10307432](https://nure-time.runasp.net/api/Groups/10307432)
+- **GET** [https://nure-time.runasp.net/api/v1/Groups/10307432](https://nure-time.runasp.net/api/v1/Groups/10307432)
 
 ## `/Faculties`
 Gets all faculties. Returns a list of `GroupsFaculty` objects.
@@ -65,4 +65,4 @@ GroupsFaculty object:
 
 Call example:
 
-- **GET** [https://nure-time.runasp.net/api/Groups/Faculties](https://nure-time.runasp.net/api/Groups/Faculties)
+- **GET** [https://nure-time.runasp.net/api/v1/Groups/Faculties](https://nure-time.runasp.net/api/v1/Groups/Faculties)

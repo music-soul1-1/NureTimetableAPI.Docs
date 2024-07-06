@@ -1,9 +1,9 @@
-# Teachers
+# Teachers, v1
 
 The `Teachers` controller provides the following endpoints:
-* `/Teachers/All`
-* `/Teachers/{id}`
-* `/Faculties`
+* `/api/v1/Teachers/All`
+* `/api/v1/Teachers/{id}`
+* `/api/v1/Faculties`
 
 ## `/Teachers/All`
 Gets all teachers. Returns a list of `Teacher` objects.
@@ -29,14 +29,14 @@ Teacher object:
 
 Call example:
 
-- **GET** [https://nure-time.runasp.net/api/Teachers/All](https://nure-time.runasp.net/api/Teachers/All)
+- **GET** [https://nure-time.runasp.net/api/v1/Teachers/All](https://nure-time.runasp.net/api/v1/Teachers/All)
 
 ## `/Teachers/{id}`
 Gets a teacher by its ID. Returns a `Teacher` object.
 
 Call example:
 
-- **GET** [https://nure-time.runasp.net/api/Teachers/4070](https://nure-time.runasp.net/api/Teachers/4070)
+- **GET** [https://nure-time.runasp.net/api/v1/Teachers/4070](https://nure-time.runasp.net/api/v1/Teachers/4070)
 
 ## `/Faculties`
 Gets all faculties. Returns a list of `TeachersFaculty` objects.
@@ -66,4 +66,4 @@ TeachersFaculty object:
 
 Call example:
 
-- **GET** [https://nure-time.runasp.net/api/Teachers/Faculties](https://nure-time.runasp.net/api/Teachers/Faculties)
+- **GET** [https://nure-time.runasp.net/api/v1/Teachers/Faculties](https://nure-time.runasp.net/api/v1/Teachers/Faculties)

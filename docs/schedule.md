@@ -1,8 +1,8 @@
-# Schedule
+# Schedule, v1
 
 The `Lessons` controller provides the following endpoints:
-* `/Lessons/Get?id={id}&type={type}&startTime={startTime}&endTime={endTime}`
-* `/Lessons/GetByName?name={name}&type={type}&startTime={startTime}&endTime={endTime}`
+* `/api/v1/Lessons/Get?id={id}&type={type}&startTime={startTime}&endTime={endTime}`
+* `/api/v1/Lessons/GetByName?name={name}&type={type}&startTime={startTime}&endTime={endTime}`
 
 Where `startTime` and `endTime` are optional parameters. If they are not specified, you will get all lessons available for the entity.
 
@@ -90,7 +90,7 @@ Lesson object:
 
 Call example:
 
-- **GET** [https://nure-time.runasp.net/api/Lessons/Get?id=10307432&type=0](https://nure-time.runasp.net/api/Lessons/Get?id=10307432&type=0)
+- **GET** [https://nure-time.runasp.net/api/v1/Lessons/Get?id=10307432&type=0](https://nure-time.runasp.net/api/v1/Lessons/Get?id=10307432&type=0)
 
 ## `/Lessons/GetByName?name={name}&type={type}`
 
@@ -100,7 +100,7 @@ parameters:
 
 | Name      | Type   | Description                                                            |
 |-----------|--------|------------------------------------------------------------------------|
-| name      | string | Entity name. For teachers use their short name in a format of: `Second name FN. MN.` |
+| name      | string | Entity name. For teachers use their short name in a format of: `Surname FN. MN.` |
 | type      | [EntityType](https://github.com/music-soul1-1/NureTimetableAPI/blob/master/NureTimetableAPI/Types/EntityType.cs) | Entity type. `0` for group, `1` for teacher, `2` for auditory |
 | startTime | integer| Start time of the lesson. Format: UNIX seconds timestamp               |
 | endTime   | integer| End time of the lesson. Format: UNIX seconds timestamp                 |
@@ -108,4 +108,4 @@ parameters:
 
 Call example:
 
-- **GET** [https://nure-time.runasp.net/api/Lessons/GetByName?name=іст-22-1&type=0](https://nure-time.runasp.net/api/Lessons/GetByName?name=іст-22-1&type=0)
+- **GET** [https://nure-time.runasp.net/api/v1/Lessons/GetByName?name=іст-22-1&type=0](https://nure-time.runasp.net/api/v1/Lessons/GetByName?name=іст-22-1&type=0)

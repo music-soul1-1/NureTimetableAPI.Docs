@@ -16,4 +16,6 @@ title: Docs
 🧑🏼‍💻 An **app** for Windows, Android, and Web is available [here](https://github.com/music-soul1-1/nure-timetable).
 
 
-📃 Go to [Docs](https://music-soul1-1.github.io/NureTimetableAPI.Docs/docs/introduction.html) to get started.
+📃 Go to [Docs](https://music-soul1-1.github.io/NureTimetableAPI.Docs/docs/getting-started.html) to get started.
+
+📟 **Swagger UI** is available [here](https://nure-time.runasp.net/swagger).
