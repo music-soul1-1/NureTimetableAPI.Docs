@@ -2,17 +2,40 @@
 
 First things first, the domain of the API is: https://nure-time.runasp.net
 
-The API is RESTful and version 1 has the following endpoints:
-* `/api/v1//Groups/All`
-* `/api/v1/Groups/{id}`
-* `/api/v1/Faculties`
-* `/api/v1/Teachers/All`
-* `/api/v1/Teachers/{id}`
-* `/api/v1/Faculties`
-* `/api/v1/Auditories/All`
-* `/api/v1/Auditories/{id}`
-* `/api/v1/Buildings`
-* `/api/v1/Lessons/Get?id={id}&type={type}`
-* `/api/v1/Lessons/GetByName?name={name}&type={type}`
+API currently has two versions: 1 and 2. Version 1 will soon be removed.
+
+Version 2 of the API has the following endpoints:
+
+Auditories controller:
+
+* /api/v2/Auditories/GetAll
+* /api/v2/Auditories/Get/{id}
+* /api/v2/Auditories/GetByName
+* /api/v2/Auditories/Buildings/GetAll
+* /api/v2/Auditories/Buildings/Get/{id}
+* /api/v2/Auditories/Buildings/GetByName
+
+Groups controller:
+
+* /api/v2/Groups/GetAll
+* /api/v2/Groups/Get/{id}
+* /api/v2/Groups/GetByName
+* /api/v2/Groups/Faculties/GetAll
+* /api/v2/Groups/Faculties/Get/{id}
+* /api/v2/Groups/Faculties/GetByName
+
+Teachers controller:
+
+* /api/v2/Teachers/GetAll
+* /api/v2/Teachers/Get/{id}
+* /api/v2/Teachers/GetByName
+* /api/v2/Teachers/Faculties/GetAll
+* /api/v2/Teachers/Faculties/Get/{id}
+* /api/v2/Teachers/Faculties/GetByName
+
+Lessons controller:
+
+* /api/v2/Lessons/GetById
+* /api/v2/Lessons/GetByName
 
 This list will be expanded as the project develops.

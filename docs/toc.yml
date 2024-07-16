@@ -3,17 +3,38 @@
 - name: Getting Started
   href: getting-started.md
 
-- name: University structure
+- name: V2
   expanded: true
+  items: 
+    - name: University structure
+      expanded: true
+      items:
+        - name: Groups
+          href: v2/uni-structure/groups.md
+
+        - name: Teachers
+          href: v2/uni-structure/teachers.md
+
+        - name: Auditories
+          href: v2/uni-structure/auditories.md
+
+    - name: Schedule
+      href: v2/schedule.md
+
+- name: V1 (Deprecated)
+  expanded: false
   items:
-    - name: Groups
-      href: uni-structure/groups.md
+    - name: University structure
+      expanded: true
+      items:
+        - name: Groups
+          href: v1/uni-structure/groups.md
 
-    - name: Teachers
-      href: uni-structure/teachers.md
+        - name: Teachers
+          href: v1/uni-structure/teachers.md
 
-    - name: Auditories
-      href: uni-structure/auditories.md
+        - name: Auditories
+          href: v1/uni-structure/auditories.md
 
-- name: Schedule
-  href: schedule.md
+    - name: Schedule
+      href: v1/schedule.md
