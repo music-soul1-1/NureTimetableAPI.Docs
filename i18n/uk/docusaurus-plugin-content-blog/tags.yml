@@ -1,0 +1,44 @@
+development-process:
+  label: Процес розробки
+  permalink: /development-process
+  description: Development process updates and news
+release:
+  label: Реліз
+  permalink: /release
+  description: Releases information
+hosting:
+  label: Хостинг
+  permalink: /hosting
+  description: Hosting news/updates
+bugs:
+  label: Баги
+  permalink: /bugs
+  description: Bugs news/updates
+bug-fixes:
+  label: Виправлення багів
+  permalink: /bug-fixes
+  description: Bug fixes news/updates
+security:
+  label: Безпека
+  permalink: /security
+  description: Security news/updates
+major-release:
+  label: Мажорний реліз
+  permalink: /major-release
+  description: Major release news/updates
+minor-release:
+  label: Мінорний реліз
+  permalink: /minor-release
+  description: Minor release news/updates
+patch-release:
+  label: Патч
+  permalink: /patch-release
+  description: Patch release news/updates
+plans:
+  label: Плани
+  permalink: /plans
+  description: Plans news/updates
+news:
+  label: Новини
+  permalink: /news
+  description: News

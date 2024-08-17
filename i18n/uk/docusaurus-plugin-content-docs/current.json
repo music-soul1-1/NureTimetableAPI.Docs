@@ -1,0 +1,14 @@
+{
+  "version.label": {
+    "message": "Поточна версія",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.University structure": {
+    "message": "Структура університету",
+    "description": "The label for category University structure in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.University structure.link.generated-index.description": {
+    "message": "Ознайомтеся з докладною інформацією про ендпоінти API структури університету.",
+    "description": "The generated-index page description for category University structure in sidebar tutorialSidebar"
+  }
+}
