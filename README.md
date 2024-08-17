@@ -29,8 +29,15 @@ for starting with Ukrainian locale.
 #### Write translations
 
 ```bash
-docker-compose run --rm npm run docusaurus write-translations -- --locale uk
+docker-compose run --rm docusaurus npm run docusaurus write-translations -- --locale uk
 ```
+
+#### Add version
+
+```bash
+docker-compose run --rm docusaurus npm run docusaurus docs:version major.minor
+```
+(major.minor - version number, e.g. 3.0)
 
 ### Using Node.js
 
@@ -59,6 +66,13 @@ for Ukrainian locale.
 ```bash
 npm run docusaurus write-translations -- --locale uk
 ```
+
+#### Add version
+
+```bash
+npm run docusaurus docs:version major.minor
+```
+(major.minor - version number, e.g. 3.0)
 
 
 ## Copyright
