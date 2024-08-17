@@ -1,0 +1,42 @@
+{
+  "link.title.Docs": {
+    "message": "Документація",
+    "description": "The title of the footer links column with title=Docs in the footer"
+  },
+  "link.title.More": {
+    "message": "Більше",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.Tutorial": {
+    "message": "Посібник",
+    "description": "The label of footer link with label=Tutorial linking to /docs/intro"
+  },
+  "link.item.label.Blog": {
+    "message": "Блог",
+    "description": "The label of footer link with label=Blog linking to /blog"
+  },
+  "copyright": {
+    "message": "Copyright © 2024 music-soul-1. Built with Docusaurus.",
+    "description": "The footer copyright"
+  },
+  "link.title.NURE-related projects": {
+    "message": "Проєкти, пов'язані з ХНУРЕ",
+    "description": "The title of the footer links column with title=NURE-related projects in the footer"
+  },
+  "link.item.label.App": {
+    "message": "Додаток",
+    "description": "The label of footer link with label=App linking to https://github.com/music-soul1-1/nure-timetable"
+  },
+  "link.item.label.API": {
+    "message": "API",
+    "description": "The label of footer link with label=API linking to https://github.com/music-soul1-1/NureTimetableAPI"
+  },
+  "link.item.label..NET library": {
+    "message": ".NET бібліотека",
+    "description": "The label of footer link with label=.NET library linking to https://github.com/music-soul1-1/NureTimetableAPI.DotNetLib"
+  },
+  "link.item.label.Docs": {
+    "message": "Документація",
+    "description": "The label of footer link with label=Docs linking to https://github.com/music-soul1-1/NureTimetableAPI.Docs"
+  }
+}

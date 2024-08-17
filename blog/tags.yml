@@ -1,0 +1,44 @@
+development-process:
+  label: Development process
+  permalink: /development-process
+  description: Development process updates and news
+release:
+  label: Release
+  permalink: /release
+  description: Releases information
+hosting:
+  label: Hosting
+  permalink: /hosting
+  description: Hosting news/updates
+bugs:
+  label: Bugs
+  permalink: /bugs
+  description: Bugs news/updates
+bug-fixes:
+  label: Bug fixes
+  permalink: /bug-fixes
+  description: Bug fixes news/updates
+security:
+  label: Security
+  permalink: /security
+  description: Security news/updates
+major-release:
+  label: Major release
+  permalink: /major-release
+  description: Major release news/updates
+minor-release:
+  label: Minor release
+  permalink: /minor-release
+  description: Minor release news/updates
+patch-release:
+  label: Patch
+  permalink: /patch-release
+  description: Patch release news/updates
+plans:
+  label: Plans
+  permalink: /plans
+  description: Plans news/updates
+news:
+  label: News
+  permalink: /news
+  description: News
