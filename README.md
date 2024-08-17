@@ -6,12 +6,18 @@ This website is built using [Docusaurus](https://docusaurus.io/).
 
 ### Using Docker
 
-Run
+1. Install dependencies:
+
+```bash
+docker-compose run --rm docusaurus npm i
+```
+
+2. Start the development server:
 
 ```bash
 docker-compose up docusaurus
 ```
-for starting the development server (English locale).
+for starting server with English locale.
 
 OR
 
