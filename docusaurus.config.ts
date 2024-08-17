@@ -11,7 +11,7 @@ const config: Config = {
   url: 'http://music-soul1-1.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: process.env.BASE_URL ?? '/',
+  baseUrl: '/NureTimetableAPI.Docs/',
   trailingSlash: false,
 
   // GitHub pages deployment config.
