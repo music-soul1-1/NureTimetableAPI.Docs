@@ -50,6 +50,10 @@ API наразі має дві версії: 1 та 2. Версія 1 більш
 * `/api/v2/Teachers/Faculties/Get/{id}`
 * `/api/v2/Teachers/Faculties/GetByName`
 
+### Контролер сутностей
+
+* `/api/v2/Entities/GetAll`
+
 ### Контролер занять
 
 * `/api/v2/Lessons/GetById`

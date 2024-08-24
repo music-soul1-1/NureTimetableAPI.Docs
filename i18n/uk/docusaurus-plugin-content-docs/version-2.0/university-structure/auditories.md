@@ -21,19 +21,19 @@ description: Дізнайтесь більше про контролер ауд�
 ```json
   {
     "id": integer,
-    "name": string,
+    "name": "string",
     "floor": integer,
     "hasPower": boolean,
     "auditoryTypes": [
       {
         "id": integer,
-        "name": string
+        "name": "string"
       }
     ],
     "building": {
-      "id": string,
-      "shortName": string,
-      "fullName": string
+      "id": "string",
+      "shortName": "string",
+      "fullName": "string"
     }
   },
 ```
@@ -81,19 +81,19 @@ description: Дізнайтесь більше про контролер ауд�
 #### Об'єкт Building:
 ```json
 {
-    "id": string,
-    "shortName": string,
-    "fullName": string,
+    "id": "string",
+    "shortName": "string",
+    "fullName": "string",
     "auditories": [
         {
             "id": integer,
-            "name": string,
+            "name": "string",
             "floor": integer,
             "hasPower": boolean,
             "auditoryTypes": [
                 {
                     "id": integer,
-                    "name": string
+                    "name": "string"
                 }
             ]
         }

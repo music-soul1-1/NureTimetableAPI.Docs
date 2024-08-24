@@ -20,17 +20,17 @@ Gets all teachers. Returns a **list** of `Teacher` objects.
 ```json
 {
     "id": integer,
-    "shortName": string,
-    "fullName": string,
+    "shortName": "string",
+    "fullName": "string",
     "department": {
         "id": integer,
-        "shortName": string,
-        "fullName": string
+        "shortName": "string",
+        "fullName": "string"
     },
     "faculty": {
         "id": integer,
-        "shortName": string,
-        "fullName": string
+        "shortName": "string",
+        "fullName": "string"
     }
 }
 ```
@@ -72,18 +72,18 @@ Gets all faculties. Returns a **list** of `TeachersFaculty` objects.
 ```json
 {
     "id": integer,
-    "shortName": string,
-    "fullName": string,
+    "shortName": "string",
+    "fullName": "string",
     "departments": [
         {
             "id": integer,
-            "shortName": string,
-            "fullName": string,
+            "shortName": "string",
+            "fullName": "string",
             "teachers": [
                 {
                     "id": integer,
-                    "shortName": string,
-                    "fullName": string
+                    "shortName": "string",
+                    "fullName": "string"
                 }
             ]
         }

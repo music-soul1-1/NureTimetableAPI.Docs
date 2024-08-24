@@ -311,7 +311,7 @@
     "message": "На основі ASP .NET Core"
   },
   "homepage.header.third.description": {
-    "message": "Проєкт написаний на ASP .NET Core, що робить API швидким, безпечним щодо типів та надійним."
+    "message": "Проєкт написаний на ASP .NET Core, що робить API швидким, строго типізованим та надійним."
   },
   "homepage.browsertab.title": {
     "message": "Документація"

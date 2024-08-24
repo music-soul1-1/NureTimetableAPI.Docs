@@ -20,16 +20,16 @@ description: Дізнайтесь більше про контролер гру�
 ```json
 {
     "id": integer,
-    "name": string,
+    "name": "string",
     "direction": {
         "id": integer,
-        "shortName": string,
-        "fullName": string
+        "shortName": "string",
+        "fullName": "string"
     },
     "faculty": {
         "id": integer,
-        "shortName": string,
-        "fullName": string
+        "shortName": "string",
+        "fullName": "string"
     }
 }
 ```
@@ -72,17 +72,17 @@ description: Дізнайтесь більше про контролер гру�
 ```json
 {
     "id": integer,
-    "shortName": string,
-    "fullName": string,
+    "shortName": "string",
+    "fullName": "string",
     "directions": [
         {
         "id": integer,
-        "shortName": string,
-        "fullName": string,
+        "shortName": "string",
+        "fullName": "string",
         "groups": [
             {
                 "id": integer,
-                "name": string
+                "name": "string"
             }
         ]
         }

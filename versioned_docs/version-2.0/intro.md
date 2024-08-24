@@ -49,6 +49,11 @@ API currently has two versions: 1 and 2. Version 1 is no longer supported and wi
 * `/api/v2/Teachers/Faculties/Get/{id}`
 * `/api/v2/Teachers/Faculties/GetByName`
 
+### Entities controller
+
+* `/api/v2/Entities/GetAll`
+
+
 ### Lessons controller
 
 * `/api/v2/Lessons/GetById`

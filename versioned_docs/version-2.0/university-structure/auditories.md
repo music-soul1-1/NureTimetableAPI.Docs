@@ -21,19 +21,19 @@ Gets all auditories. Returns a **list** of `Auditory` objects.
 ```json
   {
     "id": integer,
-    "name": string,
+    "name": "string",
     "floor": integer,
     "hasPower": boolean,
     "auditoryTypes": [
       {
         "id": integer,
-        "name": string
+        "name": "string"
       }
     ],
     "building": {
-      "id": string,
-      "shortName": string,
-      "fullName": string
+      "id": "string",
+      "shortName": "string",
+      "fullName": "string"
     }
   },
 ```
@@ -81,19 +81,19 @@ Gets all buildings. Returns a **list** of `Building` objects.
 #### Building object:
 ```json
 {
-    "id": string,
-    "shortName": string,
-    "fullName": string,
+    "id": "string",
+    "shortName": "string",
+    "fullName": "string",
     "auditories": [
         {
             "id": integer,
-            "name": string,
+            "name": "string",
             "floor": integer,
             "hasPower": boolean,
             "auditoryTypes": [
                 {
                     "id": integer,
-                    "name": string
+                    "name": "string"
                 }
             ]
         }

@@ -18,65 +18,65 @@ description: Дізнайтесь більше про контролер роз�
 ```json
   {
     "id": integer,
-    "brief": string,
-    "title": string,
+    "brief": "string",
+    "title": "string",
     "startTime": integer,
     "endTime": integer,
     "type": {
       "id": integer,
-      "shortName": string,
-      "fullName": string,
+      "shortName": "string",
+      "fullName": "string",
       "idBase": integer,
-      "type": string
+      "type": "string"
     },
     "numberPair": integer,
     "teachers": [
       {
         "id": integer,
-        "shortName": string,
-        "fullName": string,
+        "shortName": "string",
+        "fullName": "string",
         "department": {
           "id": integer,
-          "shortName": string,
-          "fullName": string
+          "shortName": "string",
+          "fullName": "string"
         },
         "faculty": {
           "id": integer,
-          "shortName": string,
-          "fullName": string
+          "shortName": "string",
+          "fullName": "string"
         }
       }
     ],
     "auditory": {
       "id": integer,
-      "name": string,
+      "name": "string",
       "floor": integer,
       "hasPower": boolean,
       "auditoryTypes": [
         {
             "id": integer,
-            "name": string
+            "name": "string"
         }
       ],
       "building": {
-        "id": string,
-        "shortName": string,
-        "fullName": string
+        "id": "string",
+        "shortName": "string",
+        "fullName": "string"
       }
     },
     "groups": [
       {
         "id": integer,
-        "name": string,
+        "name": "string",
         "direction": {
           "id": integer,
-          "shortName": string,
-          "fullName": string
+          "shortName": "string",
+          "fullName": "string"
         },
         "faculty": {
           "id": integer,
-          "shortName": string,
-          "fullName": string
+          "shortName": "string",
+          "fullName": "string"
         }
       }
     ]

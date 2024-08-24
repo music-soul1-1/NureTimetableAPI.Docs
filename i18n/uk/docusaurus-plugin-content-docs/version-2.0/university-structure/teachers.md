@@ -20,17 +20,17 @@ description: Дізнайтесь більше про контролер вик�
 ```json
 {
     "id": integer,
-    "shortName": string,
-    "fullName": string,
+    "shortName": "string",
+    "fullName": "string",
     "department": {
         "id": integer,
-        "shortName": string,
-        "fullName": string
+        "shortName": "string",
+        "fullName": "string"
     },
     "faculty": {
         "id": integer,
-        "shortName": string,
-        "fullName": string
+        "shortName": "string",
+        "fullName": "string"
     }
 }
 ```
@@ -72,18 +72,18 @@ description: Дізнайтесь більше про контролер вик�
 ```json
 {
     "id": integer,
-    "shortName": string,
-    "fullName": string,
+    "shortName": "string",
+    "fullName": "string",
     "departments": [
         {
             "id": integer,
-            "shortName": string,
-            "fullName": string,
+            "shortName": "string",
+            "fullName": "string",
             "teachers": [
                 {
                     "id": integer,
-                    "shortName": string,
-                    "fullName": string
+                    "shortName": "string",
+                    "fullName": "string"
                 }
             ]
         }

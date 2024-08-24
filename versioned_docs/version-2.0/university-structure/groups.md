@@ -21,16 +21,16 @@ Gets all groups. Returns a **list** of `Group` objects.
 ```json
 {
     "id": integer,
-    "name": string,
+    "name": "string",
     "direction": {
         "id": integer,
-        "shortName": string,
-        "fullName": string
+        "shortName": "string",
+        "fullName": "string"
     },
     "faculty": {
         "id": integer,
-        "shortName": string,
-        "fullName": string
+        "shortName": "string",
+        "fullName": "string"
     }
 }
 ```
@@ -73,17 +73,17 @@ Gets all faculties. Returns a **list** of `GroupsFaculty` objects.
 ```json
 {
     "id": integer,
-    "shortName": string,
-    "fullName": string,
+    "shortName": "string",
+    "fullName": "string",
     "directions": [
         {
         "id": integer,
-        "shortName": string,
-        "fullName": string,
+        "shortName": "string",
+        "fullName": "string",
         "groups": [
             {
                 "id": integer,
-                "name": string
+                "name": "string"
             }
         ]
         }
