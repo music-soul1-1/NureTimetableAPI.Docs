@@ -73,7 +73,7 @@ const config: Config = {
     navbar: {
       title: 'NureTimetableAPI.Docs',
       logo: {
-        alt: 'NureTimetableAPI.Docs Logo',
+        alt: 'Logo',
         src: 'img/app-icon-green.svg',
       },
       items: [
