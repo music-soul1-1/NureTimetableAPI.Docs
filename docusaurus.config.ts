@@ -119,7 +119,7 @@ const config: Config = {
           title: 'NURE-related projects',
           items: [
             {
-              label: 'App',
+              label: 'Cross-Platform app',
               href: 'https://github.com/music-soul1-1/nure-timetable',
             },
             {

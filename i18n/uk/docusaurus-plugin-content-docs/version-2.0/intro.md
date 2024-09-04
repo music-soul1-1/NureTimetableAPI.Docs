@@ -8,7 +8,7 @@ sidebar_position: 1
 
 Також ви можете пограти з API використовуючи [Swagger UI](https://nure-time.runasp.net/swagger/index.html).
 
-Перегляньте [.NET бібліотеку](https://github.com/music-soul1-1/NureTimetableAPI.DotNetLib).
+Перегляньте [Кросплатформний застосунок](https://github.com/music-soul1-1/nure-timetable) та [.NET бібліотеку](https://github.com/music-soul1-1/NureTimetableAPI.DotNetLib).
 
 
 ## Початок

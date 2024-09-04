@@ -8,7 +8,7 @@ Here you will find the documentation of the API endpoints. Below you can find th
 
 Also, you can play around with the API using [Swagger UI](https://nure-time.runasp.net/swagger/index.html).
 
-Check out the [.NET library](https://github.com/music-soul1-1/NureTimetableAPI.DotNetLib).
+Check out the [Cross-Platform app](https://github.com/music-soul1-1/nure-timetable) and [.NET library](https://github.com/music-soul1-1/NureTimetableAPI.DotNetLib).
 
 ## Getting Started
 
