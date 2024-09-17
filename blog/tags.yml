@@ -42,3 +42,7 @@ news:
   label: News
   permalink: /news
   description: News
+breaking-changes:
+  label: Breaking changes
+  permalink: /breaking-changes
+  description: Breaking changes news/updates

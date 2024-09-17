@@ -42,3 +42,7 @@ news:
   label: Новини
   permalink: /news
   description: News
+breaking-changes:
+  label: Несумісні зміни
+  permalink: /breaking-change
+  description: Новини/оновлення про несумісні зміни

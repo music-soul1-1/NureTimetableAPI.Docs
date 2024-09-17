@@ -9,33 +9,33 @@ This website is built using [Docusaurus](https://docusaurus.io/).
 1. Install dependencies:
 
 ```bash
-docker-compose run --rm docusaurus npm i
+docker-compose run --rm nure-timetable-api-docs npm i
 ```
 
 2. Start the development server:
 
 ```bash
-docker-compose up docusaurus
+docker-compose up nure-timetable-api-docs
 ```
 for starting server with English locale.
 
 OR
 
 ```bash
-docker-compose up docusaurus-uk
+docker-compose up nure-timetable-api-docs-uk
 ```
 for starting with Ukrainian locale.
 
 #### Write translations
 
 ```bash
-docker-compose run --rm docusaurus npm run docusaurus write-translations -- --locale uk
+docker-compose run --rm nure-timetable-api-docs npm run docusaurus write-translations -- --locale uk
 ```
 
 #### Add version
 
 ```bash
-docker-compose run --rm docusaurus npm run docusaurus docs:version major.minor
+docker-compose run --rm nure-timetable-api-docs npm run docusaurus docs:version major.minor
 ```
 (major.minor - version number, e.g. 3.0)
 
