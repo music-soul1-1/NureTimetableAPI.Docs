@@ -14,12 +14,6 @@ Check out the [Cross-Platform app](https://github.com/music-soul1-1/nure-timetab
 
 First things first, the domain of the API is: https://nure-time.runasp.net
 
-:::warning[Note]
-
-API currently has two versions: 1 and 2. Version 1 is no longer supported and will be removed soon.
-
-:::
-
 **Version 2** of the API has the following endpoints:
 
 ### Auditories controller
